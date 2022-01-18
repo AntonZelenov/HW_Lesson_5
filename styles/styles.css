@@ -15,7 +15,6 @@ a {
 h1 {
   font-size: 34px;
   line-height: 46px;
-  margin: 0 0 40px;
 }
 
 img {
@@ -70,6 +69,8 @@ img {
 .hero-title {
   font-size: 48px;
   line-height: 64px;
+  padding-top: 34px;
+  padding-bottom: 40px;
 }
 
 .hero-section .image-holder img {
@@ -87,6 +88,7 @@ img {
 .about_me_title {
   font-size: 34px;
   line-height: 46px;
+  padding-bottom: 28px;
 }
 
 .text_holder {
@@ -126,18 +128,69 @@ img {
 .skills_item {
   display: inline-block;
   width: 100%;
-  max-width: 166px;
-  margin: 0 40px;
+  max-width: 255px;
+  height: 100%;
+  max-height: 224px;
+  margin: 0 auto;
+  padding: 0 45px;
+}
+
+.skills_logo {
+  margin: 0 auto;
+}
+
+.skills_undertext {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+
+.skills_undertext_figma {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+
+.skills_rate {
+  width: 166.46px;
+  height: 26px;
 }
 
 /*Portfolio*/
 
 .portfolio_section {
   background-color: #f6f6f6;
-  padding: 100px 0;
+
   text-align: center;
+}
+
+.portfolio_title {
+  font-size: 34px;
+  line-height: 46px;
+  padding-top: 120px;
+  padding-bottom: 68px;
+}
+
+.portfolio_list {
+  list-style-type: none;
 }
 
 .portfolio_photo {
   max-width: 940px;
+  padding-bottom: 166px;
+}
+
+.portfolio_undertext {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: underline;
+}
+
+.portfolio_photo_last {
+  max-width: 940px;
+  padding-bottom: 100px;
 }
